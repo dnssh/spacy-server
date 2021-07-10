@@ -32,7 +32,7 @@ async def auto_annotate(document: TextToAnnotate):
 
 if __name__ == "__main__":
 	host='34.135.91.206'
-	uvicorn.run("auto_annotate:app", host=host, port=8080)
+	uvicorn.run("auto_annotate:app", host=host, port=80)
 
 
 
