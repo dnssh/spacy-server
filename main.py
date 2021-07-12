@@ -8,7 +8,7 @@ from pydantic import BaseModel
 import spacy
 import json
 
-nlp= spacy.load("en_core_web_sm")
+nlp= spacy.load("model/en_core_web_sm/en_core_web_sm-3.0.0")
 
 class TextToAnnotate( BaseModel ):
 	text: str
