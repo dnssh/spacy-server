@@ -1,5 +1,5 @@
 fastapi==0.66.0
 pydantic==1.8.2
 uvicorn==0.14.0
-spacy==2.2.5
+spacy==2.2.4
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz#en_core_web_sm
